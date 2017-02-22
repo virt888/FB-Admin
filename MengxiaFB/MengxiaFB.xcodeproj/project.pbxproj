@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A5BA9721CD2B5EE0091A264 /* ItemSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5BA9711CD2B5EE0091A264 /* ItemSelectionViewController.swift */; };
+		7A921C841CD2858B00E7B04B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A921C831CD2858B00E7B04B /* AppDelegate.swift */; };
+		7A921C861CD2858B00E7B04B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A921C851CD2858B00E7B04B /* CameraViewController.swift */; };
+		7A921C891CD2858B00E7B04B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A921C871CD2858B00E7B04B /* Main.storyboard */; };
+		7A921C8B1CD2858B00E7B04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A921C8A1CD2858B00E7B04B /* Assets.xcassets */; };
+		7A921C8E1CD2858B00E7B04B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A921C8C1CD2858B00E7B04B /* LaunchScreen.storyboard */; };
+		7A921C961CD2861000E7B04B /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A921C951CD2861000E7B04B /* PreviewView.swift */; };
+		D9A433741E52CF6400FA30C2 /* CheckPassengerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A433721E52CF6400FA30C2 /* CheckPassengerViewViewController.swift */; };
+		D9A433751E52CF6400FA30C2 /* CheckPassengerViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A433731E52CF6400FA30C2 /* CheckPassengerViewViewController.xib */; };
+		D9A4337C1E52DD4800FA30C2 /* InputAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4337A1E52DD4800FA30C2 /* InputAmountViewController.swift */; };
+		D9A4337D1E52DD4800FA30C2 /* InputAmountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A4337B1E52DD4800FA30C2 /* InputAmountViewController.xib */; };
+		D9A9ECE61E5164C500286433 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A9ECE41E5164C500286433 /* LoginController.swift */; };
+		D9A9ECE71E5164C500286433 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A9ECE51E5164C500286433 /* LoginController.xib */; };
+		D9A9ECEB1E517DE900286433 /* GradientBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A9ECE91E517DE900286433 /* GradientBtn.swift */; };
+		D9A9ECEC1E517DE900286433 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A9ECEA1E517DE900286433 /* NavigationController.swift */; };
+		D9A9ECF11E51813D00286433 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A9ECF01E51813D00286433 /* BasicViewController.swift */; };
+		D9A9ECF41E5196AD00286433 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A9ECF21E5196AD00286433 /* HistoryViewController.swift */; };
+		D9A9ECF51E5196AD00286433 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A9ECF31E5196AD00286433 /* HistoryViewController.xib */; };
+		D9A9ECF81E51A35000286433 /* SelectDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A9ECF61E51A35000286433 /* SelectDateViewController.swift */; };
+		D9A9ECF91E51A35000286433 /* SelectDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A9ECF71E51A35000286433 /* SelectDateViewController.xib */; };
+		D9A9ECFB1E51AA1300286433 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A9ECFA1E51AA1300286433 /* CalendarView.swift */; };
+		D9D36ECC1E51B687003BE047 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D36ECA1E51B687003BE047 /* DayCell.swift */; };
+		D9D36ECD1E51B687003BE047 /* DayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D36ECB1E51B687003BE047 /* DayCell.xib */; };
+		D9D36ECF1E51C7FB003BE047 /* MonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D36ECE1E51C7FB003BE047 /* MonthHeaderView.swift */; };
+		D9D36ED11E51C808003BE047 /* MonthHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D36ED01E51C808003BE047 /* MonthHeaderView.xib */; };
+		D9D36ED31E51F801003BE047 /* DateCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D36ED21E51F801003BE047 /* DateCalculator.swift */; };
+		D9EEE4871E49EB36008404D3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EEE4861E49EB36008404D3 /* ResultViewController.swift */; };
+		D9F67F091E530EDE0054A713 /* PickerPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F67F071E530EDE0054A713 /* PickerPhotoViewController.swift */; };
+		D9F67F0A1E530EDE0054A713 /* PickerPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F67F081E530EDE0054A713 /* PickerPhotoViewController.xib */; };
+		D9F67F0C1E5353BB0054A713 /* cameraOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F67F0B1E5353BB0054A713 /* cameraOverView.swift */; };
+		D9F67F0E1E5353CB0054A713 /* cameraOverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F67F0D1E5353CB0054A713 /* cameraOverView.xib */; };
+		D9F67F101E54054C0054A713 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F67F0F1E54054C0054A713 /* ConfirmView.swift */; };
+		D9F67F121E54055D0054A713 /* ConfirmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F67F111E54055D0054A713 /* ConfirmView.xib */; };
+		D9F684AE1E5495D30054A713 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F684AD1E5495D30054A713 /* CoreData.framework */; };
+		D9F684B11E5496420054A713 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9F684AF1E5496420054A713 /* DataModel.xcdatamodeld */; };
+		D9F684B31E54983F0054A713 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F684B21E54983F0054A713 /* TransactionModel.swift */; };
+		D9F684B51E54995A0054A713 /* DataTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F684B41E54995A0054A713 /* DataTool.swift */; };
+		D9F684B81E549C3C0054A713 /* PaxCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F684B61E549C3C0054A713 /* PaxCheckCell.swift */; };
+		D9F684B91E549C3C0054A713 /* PaxCheckCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F684B71E549C3C0054A713 /* PaxCheckCell.xib */; };
+		D9F684BC1E54B7940054A713 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F684BA1E54B7940054A713 /* HistoryCell.swift */; };
+		D9F684BD1E54B7940054A713 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F684BB1E54B7940054A713 /* HistoryCell.xib */; };
+		E75FC743BF1A2EACB22FC2C0 /* Pods_MengxiaFB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D7E88727886AC724B0C3D2 /* Pods_MengxiaFB.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03D7E88727886AC724B0C3D2 /* Pods_MengxiaFB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MengxiaFB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A00104A1CD28B5500302C83 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7A5BA9711CD2B5EE0091A264 /* ItemSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSelectionViewController.swift; sourceTree = "<group>"; };
+		7A921C801CD2858B00E7B04B /* MengxiaFB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MengxiaFB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A921C831CD2858B00E7B04B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A921C851CD2858B00E7B04B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		7A921C881CD2858B00E7B04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A921C8A1CD2858B00E7B04B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A921C8D1CD2858B00E7B04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A921C8F1CD2858B00E7B04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A921C951CD2861000E7B04B /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		D9A433721E52CF6400FA30C2 /* CheckPassengerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckPassengerViewViewController.swift; sourceTree = "<group>"; };
+		D9A433731E52CF6400FA30C2 /* CheckPassengerViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckPassengerViewViewController.xib; sourceTree = "<group>"; };
+		D9A4337A1E52DD4800FA30C2 /* InputAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputAmountViewController.swift; sourceTree = "<group>"; };
+		D9A4337B1E52DD4800FA30C2 /* InputAmountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputAmountViewController.xib; sourceTree = "<group>"; };
+		D9A9ECE41E5164C500286433 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		D9A9ECE51E5164C500286433 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		D9A9ECE91E517DE900286433 /* GradientBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientBtn.swift; sourceTree = "<group>"; };
+		D9A9ECEA1E517DE900286433 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		D9A9ECF01E51813D00286433 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		D9A9ECF21E5196AD00286433 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		D9A9ECF31E5196AD00286433 /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		D9A9ECF61E51A35000286433 /* SelectDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDateViewController.swift; sourceTree = "<group>"; };
+		D9A9ECF71E51A35000286433 /* SelectDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectDateViewController.xib; sourceTree = "<group>"; };
+		D9A9ECFA1E51AA1300286433 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		D9D36ECA1E51B687003BE047 /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		D9D36ECB1E51B687003BE047 /* DayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayCell.xib; sourceTree = "<group>"; };
+		D9D36ECE1E51C7FB003BE047 /* MonthHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthHeaderView.swift; sourceTree = "<group>"; };
+		D9D36ED01E51C808003BE047 /* MonthHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthHeaderView.xib; sourceTree = "<group>"; };
+		D9D36ED21E51F801003BE047 /* DateCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCalculator.swift; sourceTree = "<group>"; };
+		D9EEE4861E49EB36008404D3 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		D9F67F071E530EDE0054A713 /* PickerPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPhotoViewController.swift; sourceTree = "<group>"; };
+		D9F67F081E530EDE0054A713 /* PickerPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerPhotoViewController.xib; sourceTree = "<group>"; };
+		D9F67F0B1E5353BB0054A713 /* cameraOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraOverView.swift; sourceTree = "<group>"; };
+		D9F67F0D1E5353CB0054A713 /* cameraOverView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cameraOverView.xib; sourceTree = "<group>"; };
+		D9F67F0F1E54054C0054A713 /* ConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
+		D9F67F111E54055D0054A713 /* ConfirmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmView.xib; sourceTree = "<group>"; };
+		D9F684AD1E5495D30054A713 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9F684B01E5496420054A713 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		D9F684B21E54983F0054A713 /* TransactionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		D9F684B41E54995A0054A713 /* DataTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTool.swift; sourceTree = "<group>"; };
+		D9F684B61E549C3C0054A713 /* PaxCheckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaxCheckCell.swift; sourceTree = "<group>"; };
+		D9F684B71E549C3C0054A713 /* PaxCheckCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaxCheckCell.xib; sourceTree = "<group>"; };
+		D9F684BA1E54B7940054A713 /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		D9F684BB1E54B7940054A713 /* HistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		F3F47F903C9D3257F828713F /* Pods-MengxiaFB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengxiaFB.release.xcconfig"; path = "Pods/Target Support Files/Pods-MengxiaFB/Pods-MengxiaFB.release.xcconfig"; sourceTree = "<group>"; };
+		F992A1FB294B9B73A7543BFF /* Pods-MengxiaFB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengxiaFB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MengxiaFB/Pods-MengxiaFB.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A921C7D1CD2858B00E7B04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F684AE1E5495D30054A713 /* CoreData.framework in Frameworks */,
+				E75FC743BF1A2EACB22FC2C0 /* Pods_MengxiaFB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A921C771CD2858B00E7B04B = {
+			isa = PBXGroup;
+			children = (
+				7A00104A1CD28B5500302C83 /* README.md */,
+				7A921C821CD2858B00E7B04B /* AVCamBarcode */,
+				7A921C811CD2858B00E7B04B /* Products */,
+				8F04B208B4E0262C3819C560 /* Pods */,
+				A927E92CEC4C584C39239574 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A921C811CD2858B00E7B04B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A921C801CD2858B00E7B04B /* MengxiaFB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A921C821CD2858B00E7B04B /* AVCamBarcode */ = {
+			isa = PBXGroup;
+			children = (
+				D9A9ECEF1E517E1200286433 /* Other */,
+				D9A9ECEE1E517E0100286433 /* Model */,
+				D9A9ECED1E517DF500286433 /* View */,
+				D9A9ECE81E517DE900286433 /* Basic */,
+			);
+			path = AVCamBarcode;
+			sourceTree = "<group>";
+		};
+		8F04B208B4E0262C3819C560 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F992A1FB294B9B73A7543BFF /* Pods-MengxiaFB.debug.xcconfig */,
+				F3F47F903C9D3257F828713F /* Pods-MengxiaFB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A927E92CEC4C584C39239574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9F684AD1E5495D30054A713 /* CoreData.framework */,
+				03D7E88727886AC724B0C3D2 /* Pods_MengxiaFB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A9ECE81E517DE900286433 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				D9A9ECE91E517DE900286433 /* GradientBtn.swift */,
+				D9A9ECEA1E517DE900286433 /* NavigationController.swift */,
+				D9A9ECF01E51813D00286433 /* BasicViewController.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		D9A9ECED1E517DF500286433 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A921C951CD2861000E7B04B /* PreviewView.swift */,
+				7A921C851CD2858B00E7B04B /* CameraViewController.swift */,
+				7A5BA9711CD2B5EE0091A264 /* ItemSelectionViewController.swift */,
+				D9EEE4861E49EB36008404D3 /* ResultViewController.swift */,
+				D9A9ECE41E5164C500286433 /* LoginController.swift */,
+				D9A9ECE51E5164C500286433 /* LoginController.xib */,
+				D9A9ECF21E5196AD00286433 /* HistoryViewController.swift */,
+				D9A9ECF31E5196AD00286433 /* HistoryViewController.xib */,
+				D9F684BA1E54B7940054A713 /* HistoryCell.swift */,
+				D9F684BB1E54B7940054A713 /* HistoryCell.xib */,
+				D9A9ECF61E51A35000286433 /* SelectDateViewController.swift */,
+				D9A9ECF71E51A35000286433 /* SelectDateViewController.xib */,
+				D9A9ECFA1E51AA1300286433 /* CalendarView.swift */,
+				D9D36ED21E51F801003BE047 /* DateCalculator.swift */,
+				D9D36ECA1E51B687003BE047 /* DayCell.swift */,
+				D9D36ECB1E51B687003BE047 /* DayCell.xib */,
+				D9D36ECE1E51C7FB003BE047 /* MonthHeaderView.swift */,
+				D9D36ED01E51C808003BE047 /* MonthHeaderView.xib */,
+				D9A433721E52CF6400FA30C2 /* CheckPassengerViewViewController.swift */,
+				D9A433731E52CF6400FA30C2 /* CheckPassengerViewViewController.xib */,
+				D9F684B61E549C3C0054A713 /* PaxCheckCell.swift */,
+				D9F684B71E549C3C0054A713 /* PaxCheckCell.xib */,
+				D9F67F0B1E5353BB0054A713 /* cameraOverView.swift */,
+				D9F67F0D1E5353CB0054A713 /* cameraOverView.xib */,
+				D9F67F071E530EDE0054A713 /* PickerPhotoViewController.swift */,
+				D9F67F081E530EDE0054A713 /* PickerPhotoViewController.xib */,
+				D9A4337A1E52DD4800FA30C2 /* InputAmountViewController.swift */,
+				D9A4337B1E52DD4800FA30C2 /* InputAmountViewController.xib */,
+				D9F67F0F1E54054C0054A713 /* ConfirmView.swift */,
+				D9F67F111E54055D0054A713 /* ConfirmView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D9A9ECEE1E517E0100286433 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9F684AF1E5496420054A713 /* DataModel.xcdatamodeld */,
+				D9F684B21E54983F0054A713 /* TransactionModel.swift */,
+				D9F684B41E54995A0054A713 /* DataTool.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D9A9ECEF1E517E1200286433 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7A921C831CD2858B00E7B04B /* AppDelegate.swift */,
+				7A921C871CD2858B00E7B04B /* Main.storyboard */,
+				7A921C8A1CD2858B00E7B04B /* Assets.xcassets */,
+				7A921C8C1CD2858B00E7B04B /* LaunchScreen.storyboard */,
+				7A921C8F1CD2858B00E7B04B /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A921C7F1CD2858B00E7B04B /* MengxiaFB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A921C921CD2858B00E7B04B /* Build configuration list for PBXNativeTarget "MengxiaFB" */;
+			buildPhases = (
+				2659D5C4CD8524465FA93307 /* [CP] Check Pods Manifest.lock */,
+				7A921C7C1CD2858B00E7B04B /* Sources */,
+				7A921C7D1CD2858B00E7B04B /* Frameworks */,
+				7A921C7E1CD2858B00E7B04B /* Resources */,
+				1E96318D7A692915B10951C3 /* [CP] Embed Pods Frameworks */,
+				639481E927A20CA7F1E9FA35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MengxiaFB;
+			productName = AVCamBarcode;
+			productReference = 7A921C801CD2858B00E7B04B /* MengxiaFB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A921C781CD2858B00E7B04B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Apple, Inc.";
+				TargetAttributes = {
+					7A921C7F1CD2858B00E7B04B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P8LE7J3GU5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7A921C7B1CD2858B00E7B04B /* Build configuration list for PBXProject "MengxiaFB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A921C771CD2858B00E7B04B;
+			productRefGroup = 7A921C811CD2858B00E7B04B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A921C7F1CD2858B00E7B04B /* MengxiaFB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A921C7E1CD2858B00E7B04B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A433751E52CF6400FA30C2 /* CheckPassengerViewViewController.xib in Resources */,
+				D9F67F0A1E530EDE0054A713 /* PickerPhotoViewController.xib in Resources */,
+				D9F684BD1E54B7940054A713 /* HistoryCell.xib in Resources */,
+				D9F684B91E549C3C0054A713 /* PaxCheckCell.xib in Resources */,
+				7A921C8E1CD2858B00E7B04B /* LaunchScreen.storyboard in Resources */,
+				D9A9ECE71E5164C500286433 /* LoginController.xib in Resources */,
+				D9D36ECD1E51B687003BE047 /* DayCell.xib in Resources */,
+				D9F67F121E54055D0054A713 /* ConfirmView.xib in Resources */,
+				D9A9ECF91E51A35000286433 /* SelectDateViewController.xib in Resources */,
+				7A921C8B1CD2858B00E7B04B /* Assets.xcassets in Resources */,
+				D9F67F0E1E5353CB0054A713 /* cameraOverView.xib in Resources */,
+				D9A9ECF51E5196AD00286433 /* HistoryViewController.xib in Resources */,
+				D9D36ED11E51C808003BE047 /* MonthHeaderView.xib in Resources */,
+				D9A4337D1E52DD4800FA30C2 /* InputAmountViewController.xib in Resources */,
+				7A921C891CD2858B00E7B04B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E96318D7A692915B10951C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengxiaFB/Pods-MengxiaFB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2659D5C4CD8524465FA93307 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		639481E927A20CA7F1E9FA35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengxiaFB/Pods-MengxiaFB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A921C7C1CD2858B00E7B04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EEE4871E49EB36008404D3 /* ResultViewController.swift in Sources */,
+				D9A433741E52CF6400FA30C2 /* CheckPassengerViewViewController.swift in Sources */,
+				D9A9ECF11E51813D00286433 /* BasicViewController.swift in Sources */,
+				D9A9ECFB1E51AA1300286433 /* CalendarView.swift in Sources */,
+				D9F684B31E54983F0054A713 /* TransactionModel.swift in Sources */,
+				D9A9ECEC1E517DE900286433 /* NavigationController.swift in Sources */,
+				D9D36ECC1E51B687003BE047 /* DayCell.swift in Sources */,
+				D9A9ECF81E51A35000286433 /* SelectDateViewController.swift in Sources */,
+				D9D36ECF1E51C7FB003BE047 /* MonthHeaderView.swift in Sources */,
+				D9F684B11E5496420054A713 /* DataModel.xcdatamodeld in Sources */,
+				D9A4337C1E52DD4800FA30C2 /* InputAmountViewController.swift in Sources */,
+				D9A9ECF41E5196AD00286433 /* HistoryViewController.swift in Sources */,
+				D9A9ECEB1E517DE900286433 /* GradientBtn.swift in Sources */,
+				D9A9ECE61E5164C500286433 /* LoginController.swift in Sources */,
+				7A5BA9721CD2B5EE0091A264 /* ItemSelectionViewController.swift in Sources */,
+				D9F684BC1E54B7940054A713 /* HistoryCell.swift in Sources */,
+				D9F67F091E530EDE0054A713 /* PickerPhotoViewController.swift in Sources */,
+				D9F684B51E54995A0054A713 /* DataTool.swift in Sources */,
+				7A921C861CD2858B00E7B04B /* CameraViewController.swift in Sources */,
+				D9D36ED31E51F801003BE047 /* DateCalculator.swift in Sources */,
+				D9F67F101E54054C0054A713 /* ConfirmView.swift in Sources */,
+				7A921C841CD2858B00E7B04B /* AppDelegate.swift in Sources */,
+				7A921C961CD2861000E7B04B /* PreviewView.swift in Sources */,
+				D9F67F0C1E5353BB0054A713 /* cameraOverView.swift in Sources */,
+				D9F684B81E549C3C0054A713 /* PaxCheckCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A921C871CD2858B00E7B04B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A921C881CD2858B00E7B04B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A921C8C1CD2858B00E7B04B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A921C8D1CD2858B00E7B04B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A921C901CD2858B00E7B04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPRESSION = lossless;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A921C911CD2858B00E7B04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPRESSION = "respect-asset-catalog";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A921C931CD2858B00E7B04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F992A1FB294B9B73A7543BFF /* Pods-MengxiaFB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rui Yang (9F3E26T4QQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P8LE7J3GU5;
+				INFOPLIST_FILE = AVCamBarcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MengxiaFB8764";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A921C941CD2858B00E7B04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F47F903C9D3257F828713F /* Pods-MengxiaFB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rui Yang (9F3E26T4QQ)";
+				DEVELOPMENT_TEAM = P8LE7J3GU5;
+				INFOPLIST_FILE = AVCamBarcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MengxiaFB8764";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A921C7B1CD2858B00E7B04B /* Build configuration list for PBXProject "MengxiaFB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A921C901CD2858B00E7B04B /* Debug */,
+				7A921C911CD2858B00E7B04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A921C921CD2858B00E7B04B /* Build configuration list for PBXNativeTarget "MengxiaFB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A921C931CD2858B00E7B04B /* Debug */,
+				7A921C941CD2858B00E7B04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9F684AF1E5496420054A713 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9F684B01E5496420054A713 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = D9F684B01E5496420054A713 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A921C781CD2858B00E7B04B /* Project object */;
+}

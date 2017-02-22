@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.69999999999999996" contentMode="scaleToFill" id="jmf-1F-MYK" customClass="ConfirmView" customModule="MengxiaFB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="197"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="comfire" translatesAutoresizingMaskIntoConstraints="NO" id="b9y-Sf-Jna">
+                    <rect key="frame" x="110" y="73.5" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="ZKI-Da-p05"/>
+                        <constraint firstAttribute="height" constant="50" id="pK1-Cu-INQ"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2M-ab-Iry">
+                    <rect key="frame" x="0.0" y="123.5" width="270" height="73.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Redemption submitted" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQ1-wd-wvO">
+                            <rect key="frame" x="0.0" y="26.5" width="270" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="mjM-go-j3A"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="dQ1-wd-wvO" firstAttribute="centerY" secondItem="a2M-ab-Iry" secondAttribute="centerY" id="BxT-hR-fsJ"/>
+                        <constraint firstAttribute="trailing" secondItem="dQ1-wd-wvO" secondAttribute="trailing" id="FlY-X9-Mkc"/>
+                        <constraint firstItem="dQ1-wd-wvO" firstAttribute="centerX" secondItem="a2M-ab-Iry" secondAttribute="centerX" id="U1v-Ra-YuA"/>
+                        <constraint firstItem="dQ1-wd-wvO" firstAttribute="leading" secondItem="a2M-ab-Iry" secondAttribute="leading" id="Yzd-30-5aB"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNb-sn-kYC">
+                    <rect key="frame" x="10" y="10" width="250" height="177"/>
+                    <connections>
+                        <action selector="confirm:" destination="jmf-1F-MYK" eventType="touchUpInside" id="qcf-lT-Qba"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="bNb-sn-kYC" firstAttribute="top" secondItem="jmf-1F-MYK" secondAttribute="top" constant="10" id="6Fe-nC-xwb"/>
+                <constraint firstAttribute="trailing" secondItem="bNb-sn-kYC" secondAttribute="trailing" constant="10" id="OGQ-ml-lnV"/>
+                <constraint firstItem="a2M-ab-Iry" firstAttribute="leading" secondItem="jmf-1F-MYK" secondAttribute="leading" id="adE-I6-mKG"/>
+                <constraint firstItem="b9y-Sf-Jna" firstAttribute="centerY" secondItem="jmf-1F-MYK" secondAttribute="centerY" id="bhr-QA-JKe"/>
+                <constraint firstAttribute="trailing" secondItem="a2M-ab-Iry" secondAttribute="trailing" id="boQ-QX-8Ty"/>
+                <constraint firstItem="a2M-ab-Iry" firstAttribute="top" secondItem="b9y-Sf-Jna" secondAttribute="bottom" id="fTt-bG-hmz"/>
+                <constraint firstItem="bNb-sn-kYC" firstAttribute="leading" secondItem="jmf-1F-MYK" secondAttribute="leading" constant="10" id="gG4-tb-7Ca"/>
+                <constraint firstAttribute="bottom" secondItem="a2M-ab-Iry" secondAttribute="bottom" id="pjz-8X-rFM"/>
+                <constraint firstItem="b9y-Sf-Jna" firstAttribute="centerX" secondItem="jmf-1F-MYK" secondAttribute="centerX" id="vjl-rY-6cG"/>
+                <constraint firstAttribute="bottom" secondItem="bNb-sn-kYC" secondAttribute="bottom" constant="10" id="wya-A8-KD1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-275" y="-99.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="comfire" width="50" height="50"/>
+    </resources>
+</document>
